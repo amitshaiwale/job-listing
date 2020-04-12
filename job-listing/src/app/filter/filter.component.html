@@ -1,0 +1,11 @@
+<div class="filter-card" *ngIf="showLanguage">
+    <div class="languages" *ngFor="let language of languageArray">
+        <button>
+            {{language}}
+            <span class="close" (click)="closeThislanguage(language)">&times;</span>
+        </button>
+    </div>
+    <div class="clear" (click)="clearFiters()">
+        Clear
+    </div>
+</div> 

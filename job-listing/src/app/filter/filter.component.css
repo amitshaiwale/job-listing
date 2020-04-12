@@ -1,0 +1,54 @@
+.filter-card {
+    width: 80%;
+    display: flex;
+    height: 50px;
+    margin: -25px auto auto auto;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    z-index: 2;
+}
+
+button{
+    position: relative;
+    display: block;
+    outline: none;
+    border: none;
+    font-family: 'Spartan', sans-serif;
+    font-weight: bold;
+    color:  hsl(180, 29%, 50%);
+    padding: 10px 35px 10px 10px;
+    margin: 7px;
+    background-color: hsl(180, 31%, 95%);
+    border-radius: 5px;
+}
+
+.close{
+    position: absolute;
+    cursor: pointer;
+    top: 50%;
+    right: 0%;
+    padding: 3px 8px ;
+    background-color: hsl(180, 29%, 50%);
+    color: white;
+    font-size: 22px;
+    transform: translate(0%, -50%);
+    border-radius: 0px 5px 5px 0px;
+}
+
+.clear{
+    width: 50%;
+    margin: 15px;
+    text-decoration: underline;
+    font-size: 15px;
+    color: hsl(180, 29%, 50%);
+    font-weight: bold;
+}
+
+.clear:hover{
+    cursor: pointer;
+}
+
+.close:hover{
+    background-color: hsl(180, 14%, 20%);
+}

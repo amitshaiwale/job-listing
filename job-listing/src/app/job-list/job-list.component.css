@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@500;700&display=swap');
+
+ul {
+    list-style: none;
+}
+
+span { 
+    font-family: 'Spartan', sans-serif;
+}
+
+.lists {
+    display: flex;
+    width: 90%;
+    height: 130px;
+    margin: 5px auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.logo{
+    /* flex: 1; */
+    margin: 30px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.common-css { 
+    font-family: 'Spartan', sans-serif;
+    margin: 5px 5px 5px 5px;
+}
+
+.details {
+    flex: 1;
+    padding: 10px;
+    margin: 10px auto 10px 10px; 
+    align-items: center;
+}
+
+.available-filters{
+    display: flex;
+    flex: 1;
+    justify-content: left;
+    align-items: center;
+}
+
+.available-filters > div {
+    padding: 0px 10px;
+}
+
+.position{
+    font-family: 'Spartan', sans-serif;
+    font-weight: 700;
+}
+
+.position:hover{
+    color: hsl(180, 29%, 50%);
+    cursor: pointer;
+}
+
+.top-details{
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: hsl(180, 29%, 50%);
+}
+
+.bottom-details{
+    font-size: 0.8rem;
+    color: hsl(180, 8%, 52%);
+}
+
+.filter-btn{
+    outline: none;
+    border: none;
+    font-family: 'Spartan', sans-serif;
+    font-weight: bold;
+    color:  hsl(180, 29%, 50%);
+    padding: 5px;
+    border-radius: 5px;
+    background-color: hsl(180, 31%, 95%);
+}
+
+.filter-btn:hover{
+    cursor: pointer;
+    color: white;
+    background-color: hsl(180, 29%, 50%);;
+}
+
+.btn {
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    background-color: hsl(180, 29%, 50%);
+    /* line-height: 10px; */
+    /* padding: 3px; */
+    font-weight: bold;
+    margin: 5px;
+}
+
+.btn-featured{
+    background-color: hsl(180, 14%, 20%);
+}
