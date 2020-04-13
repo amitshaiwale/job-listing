@@ -2,12 +2,11 @@
     <ul *ngFor = "let job of jobListArray">
         <li class="lists">
             <div class="logo">
-                <img src="{{job.logo}}" alt="company logo" style="width: 70px; height: 70px;">
+                <img src="{{job.logo}}" alt="company logo">
             </div>
             <div class="details">
                 <div class="top-details common-css">
                     <span> {{ job.company }} </span> 
-                    <!-- <span> new! </span> -->
                     <button type="button" class="btn">NEW!</button>
                     <button class="btn btn-featured"> FEATURED </button>
                 </div>
@@ -21,6 +20,7 @@
                 </div>
                 
             </div>
+            <hr>
             <div class="available-filters" >
                 <div *ngFor="let lang of job.languages">
                     <button class="filter-btn" type="button" (click)="getLanguage(lang)"> {{ lang }} </button>
